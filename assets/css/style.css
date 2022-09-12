@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Utilites*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*site_header*/
+#site_header{
+    height: 60px;
+    position: relative;
+    font-weight:bolder;
+    font-size: 13px;
+}
+header li{
+    display: inline-block;
+    margin-right:0.5rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    vertical-align:middle;
+}
+header li a{
+    text-decoration: none;
+    color: #565656;
+    padding-bottom:20px ;
+}
+header li a:hover{
+    border-bottom: 1px solid #565656;
+}
+header .menu_left, .menu_right{
+    display: inline-block;
+}
+header .menu_right{
+    position: absolute;
+    right: 0;
+    top: -1px;
+}
+
+header li button{
+    background-color: #0061FF;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    cursor: pointer;
+}
+header li button:hover{
+    background-color: #317ffc;
+}
