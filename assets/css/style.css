@@ -7,11 +7,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.bg{
+    background-color: #B4D0E7;
+}
+
+.d-flex{
+    display: flex;
+}
 /*site_header*/
 #site_header{
     height: 60px;
     position: relative;
-    font-weight:bolder;
     font-size: 13px;
 }
 header li{
@@ -47,4 +53,51 @@ header li button{
 }
 header li button:hover{
     background-color: #317ffc;
+}
+/*site_main*/
+section{
+    padding-top: 4rem ;
+}
+
+
+.big_container{
+    width: 60%;
+    margin: auto;
+}
+.big_container h1{
+    padding-bottom: 2rem;
+    font-size: 50px;
+    font-weight:800;
+
+}
+
+.big_container button{
+    background-color: #0061FF;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    cursor: pointer;
+}
+.big_container button:hover{
+    background-color: #317ffc;
+}
+
+.big_container p{
+    padding-bottom:1.5rem ;
+}
+.big_container .space_text{
+    padding-top: 1.5rem;
+}
+
+.big_container img{
+    width: 550px;
+    height: 400px;
+}
+.scroll{
+    font-size: 50px;
+    font-weight: 800;
+}
+.scroll a{
+    text-decoration: none;
+    color: black;
 }
