@@ -13,10 +13,21 @@ body{
 
 .d-flex{
     display: flex;
+    justify-content: space-between;
 }
+.big_container{
+    width: 65%;
+    margin: auto;
+}
+
+.small_container{
+    width: 55%;
+    margin: auto;
+}
+
 /*site_header*/
 #site_header{
-    height: 60px;
+    height: 55px;
     position: relative;
     font-size: 13px;
 }
@@ -26,6 +37,10 @@ header li{
     margin-top: 15px;
     margin-left: 10px;
     vertical-align:middle;
+}
+header li img{
+    width: 90px;
+    height: 18px;
 }
 header li a{
     text-decoration: none;
@@ -41,7 +56,7 @@ header .menu_left, .menu_right{
 header .menu_right{
     position: absolute;
     right: 0;
-    top: -1px;
+    top: -5px;
 }
 
 header li button{
@@ -59,11 +74,6 @@ section{
     padding-top: 4rem ;
 }
 
-
-.big_container{
-    width: 60%;
-    margin: auto;
-}
 .big_container h1{
     padding-bottom: 2rem;
     font-size: 50px;
@@ -100,4 +110,118 @@ section{
 .scroll a{
     text-decoration: none;
     color: black;
+}
+
+.small_container h2{
+    padding-bottom: 2rem;
+}
+
+.small_container #checkbox{
+
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.small_container #checkbox:checked{
+    border: 4px solid #317ffc;
+}
+.small_container span{
+    padding-right: 4rem;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col_4{
+    width: calc(100% / 12 *4);
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    height: 500px;
+    border: 1px solid lightgray;
+    
+}
+.col{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    width: 96.7%;
+    height: 200px;
+    border: 1px solid lightgray;
+}
+.col_7 {
+    width: calc(100% / 12 *7);
+    height: 400px;
+    border: 1px solid #565656;
+    margin-right: 10px;
+}
+
+.col_5{
+    width: calc(100% / 12 *5);
+    height: 400px;
+    border: 1px solid #565656;
+    margin-bottom: 5rem;
+}
+.col_4 .title{
+
+}
+.col_4 .title{
+    font-size: 12px;
+    text-align:center;
+}
+.col_4 hr{
+    border: 0.5px solid lightgray;
+}
+.mini_box
+{
+    padding-top: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+.mini_box h3{
+   font-size: 15px; 
+   padding-bottom: 10px;
+}
+
+.mini_box strong{
+    font-size: 13px;
+    font-weight: 501;
+}
+.mini_box .month{
+    font-size: 13px;
+    color: #565656;
+}
+
+
+
+
+
+.small_container .cont{
+    width: 60%;
+}
+.cont a{
+    font-size: 13px;
+    color: #2C2CF1;
+}
+.big_box{
+    border: 5px solid green;
+    width: 100%;
+    height: 400px;
+}
+.small_container .add .btn{
+    background-color: #0061FF;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    cursor: pointer;
+}
+.small_container .add h2{
+    padding-right: 2rem;
+    color: #61082B;
+    padding-bottom: 5rem;
 }
