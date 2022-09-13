@@ -213,7 +213,7 @@ section{
     padding-bottom: 5px;
     font-weight: 800;
 }
-.mini_box #month{
+.mini_box .month{
     font-size: 14px;
     color: #565656;
 }
@@ -462,7 +462,7 @@ section{
     padding: 0.5rem 0.7rem;
     cursor: pointer;
     background-color: white;
-    border: 1px solid gray;
+    border: none;
 }
 .small_container .add .position_btn{
     position: relative;
@@ -479,4 +479,12 @@ section{
     padding-right: 2rem;
     color: #61082B;
     padding-bottom: 5rem;
+}
+.small_container .domande{
+    margin-bottom: 5rem;
+}
+.small_container .domande .requests{
+    padding: 2rem 0;
+    cursor: pointer;
+    font-size: 14px;
 }
