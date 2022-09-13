@@ -340,9 +340,13 @@ section{
 }
 
 .small_container .cont{
-    width: 60%;
+    width: 70%;
 }
-.cont a{
+.small_container .cont h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.small_container .cont a{
     font-size: 13px;
     color: #2C2CF1;
 }
