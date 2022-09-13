@@ -452,16 +452,30 @@ section{
 }
 
 
+.small_container .add{
+    justify-content: space-between;
 
+}
 
 .small_container .add .btn{
-    background-color: #0061FF;
-    border: none;
-    padding: 0.5rem 0.8rem;
-    color: white;
+    width: 100%;
+    padding: 0.5rem 0.7rem;
     cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
 }
+.small_container .add .position_btn{
+    position: relative;
+    top: 43px;
+}
+.small_container .add .btn:hover{
+    border: 1px solid rgba(128, 128, 128, 0.521) ;
+    color: rgba(0, 0, 0, 0.521);
+}
+
 .small_container .add h2{
+    width: 70%;
+    font-size: 36px;
     padding-right: 2rem;
     color: #61082B;
     padding-bottom: 5rem;
