@@ -351,10 +351,109 @@ section{
     color: #2C2CF1;
 }
 .big_box{
-    border: 5px solid green;
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
+.items_left, .items_center, .items_right{
+    width: calc(100% / 3);
+}
+.items_left, .items_right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items_center{
+    background-color: #F5F5F5;
+}
+
+.big_box .items_left img{
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: 20px;
+}
+.big_box .items_right img{
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: 20px;
+}
+.items_center .container{
+    width: 90%;
+    margin: auto;
+}
+.items_center .container img{
+    width: 60%;
+    height: 50px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.items_center .container p{
+    font-size: 12px;
+    padding-bottom: 2rem ;
+}
+.items_center .container span{
+    padding-top: 1rem;
+    border-top: 1px solid lightgrey;
+}
+.square_green{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #A2D39B;
+    border: 5px solid #D1E9CD;
+    text-align: center;
+}
+.square_asu{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #61082B;
+    text-align: center;
+}
+.square_florida{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #0093CE;
+    text-align: center;
+}
+#logo_florida{
+    padding-top: 2.5rem;
+    height: 60px;
+}
+.square_topps{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #FF1C1C; 
+    text-align: center;
+}
+
+.square_red{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #D5001F;
+    text-align: center;
+}
+.square_primary{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #B4D0E7;
+    text-align: center;
+}
+.square_blue{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #0D2481;
+    text-align: center;
+    
+}
+.square_yellow{
+    width: calc(100% / 2);
+    height: 150px;
+    background-color: #FFD830;
+    text-align: center;
+}
+
+
+
+
 .small_container .add .btn{
     background-color: #0061FF;
     border: none;
