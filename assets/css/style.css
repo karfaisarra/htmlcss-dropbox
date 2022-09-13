@@ -175,16 +175,13 @@ section{
 }
 .col_7 {
     width: calc(100% / 12 *7);
-    height: 400px;
-    border: 1px solid #565656;
     margin-right: 10px;
 }
 
 .col_5{
     width: calc(100% / 12 *5);
-    height: 400px;
-    border: 1px solid #565656;
     margin-bottom: 5rem;
+    margin-left: 1rem;
 }
 .col_4 .title{
     font-size: 14px;
@@ -297,13 +294,30 @@ section{
     background-color: #317ffc;
 }
 
+.col_7 img{
+    width: 100%;
+}
 
+.col_5 h4{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.col_5 p{
+    font-size: 14px;
+    padding: 2rem 0;
+}
+.col_5 .btn_partner{
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
+}
 
-
-
-
-
-
+.col_5 .btn_partner:hover{
+    border: 1px solid rgba(128, 128, 128, 0.521) ;
+    color: rgba(0, 0, 0, 0.521);
+}
 
 
 
