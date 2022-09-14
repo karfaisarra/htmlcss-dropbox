@@ -6,6 +6,7 @@
 /*Utilites*/
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .bg{
     background-color: #B4D0E7;
@@ -28,7 +29,6 @@ body{
 
 /*site_header*/
 #site_header{
-    height: 55px;
     position: relative;
     font-size: 13px;
 }
@@ -38,6 +38,7 @@ header li{
     margin-top: 15px;
     margin-left: 10px;
     vertical-align:middle;
+    padding-bottom: 19px;
 }
 header li img{
     width: 90px;
@@ -70,11 +71,13 @@ header li button{
 header li button:hover{
     background-color: #317ffc;
 }
+/*end_site_header*/
+
 /*site_main*/
 section{
     padding-top: 4rem ;
 }
-
+/* jumbotron */
 .big_container h1{
     padding-bottom: 1.5rem;
     font-size: 70px;
@@ -121,7 +124,9 @@ section{
     text-decoration: none;
     color: black;
 }
+/* /jumbotron */
 
+/* plans */
 .small_container h2{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -318,7 +323,9 @@ section{
     border: 1px solid rgba(128, 128, 128, 0.521) ;
     color: rgba(0, 0, 0, 0.521);
 }
+/* /plans */
 
+/* operation */
 .small_container .instruments h2{
     font-size: 36px;
 }
@@ -338,7 +345,9 @@ section{
 .small_container .instruments .item p{
     font-size: 14px;
 }
+/* /operation */
 
+/* team */
 .small_container .cont{
     width: 70%;
 }
@@ -350,6 +359,9 @@ section{
     font-size: 13px;
     color: #2C2CF1;
 }
+/* /team */
+
+/* companies */
 .big_box{
     width: 100%;
     height: 300px;
@@ -450,8 +462,9 @@ section{
     background-color: #FFD830;
     text-align: center;
 }
+/* /companies */
 
-
+/* call_to_action */
 .small_container .add{
     justify-content: space-between;
 
@@ -480,14 +493,20 @@ section{
     color: #61082B;
     padding-bottom: 5rem;
 }
-.small_container .domande{
+/* /call_to_action */
+
+/* faq */
+.small_container .faq{
     margin-bottom: 5rem;
 }
-.small_container .domande .requests{
+.small_container .faq .requests{
     padding: 2rem 0;
     cursor: pointer;
     font-size: 14px;
 }
+/* /faq */
+/*end_site_main*/
+
 /*site_footer*/
 #site_footer{
     background-color: #000000;
@@ -511,9 +530,11 @@ section{
 }
 .footer_bottom {
     margin-top: 5rem ;
+    
 }
 .footer_bottom .languages .text{
     font-size: 14px;
     padding-top: 5rem;
     border-top:1px solid white ;
 }
+/*end_site_footer*/
