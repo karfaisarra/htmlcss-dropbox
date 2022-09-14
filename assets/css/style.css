@@ -14,7 +14,7 @@ body{
 
 .d-flex{
     display: flex;
-    justify-content: space-between;
+    
 }
 .big_container{
     width: 65%;
@@ -58,17 +58,17 @@ header .menu_left, .menu_right{
 header .menu_right{
     position: absolute;
     right: 0;
-    top: -5px;
+    top: 2px;
 }
 
-header li button{
+header li .btn{
     background-color: #0061FF;
     border: none;
     padding: 0.5rem 0.8rem;
     color: white;
     cursor: pointer;
 }
-header li button:hover{
+header li .btn:hover{
     background-color: #317ffc;
 }
 /*end_site_header*/
@@ -85,14 +85,14 @@ section{
 
 }
 
-.big_container button{
+.big_container .btn{
     background-color: #0061FF;
     border: none;
     padding: 0.5rem 0.8rem;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
-.big_container button:hover{
+.big_container .btn:hover{
     background-color: #317ffc;
 }
 
@@ -114,11 +114,10 @@ section{
 .big_container img{
     width: 67%;
     height: 350px;
-    position:relative;
 }
-.scroll{
-    font-size: 50px;
-    font-weight: 800;
+.text .scroll i{
+    padding-top: 2rem;
+    font-size: 30px;
 }
 .scroll a{
     text-decoration: none;
@@ -226,7 +225,7 @@ section{
     padding-top: 1.5rem;
 }
 .mini_box .info p{
-    font-size: 14px;
+    font-size: 13px;
     padding: 7px 0;
 }
 
@@ -239,32 +238,50 @@ section{
     border-bottom:1px solid lightgray ;
     padding-bottom: 1rem;
 }
-.mini_box .trial_button button{
+.mini_box .trial_button .contact .btn{
+    padding: 0.5rem 4rem;
+}
+.mini_box .trial_button .btn{
     background-color: #0061FF;
     border: none;
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 1rem;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
 }
 
-.mini_box .trial_button button:hover{
+.mini_box .trial_button .btn:hover{
     background-color: #317ffc;
+}
+.mini_box .trial_button .line, a{
+    padding-top: 2rem; 
+    font-size: 13px;
+}
+.mini_box .trial_button .line{
+    padding-right: 5px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+}
+.mini_box .trial_button .d-flex a{
+    color: #003cff;
 }
 .mini_box .points {
     padding-top: 2rem;
 }
 .mini_box .points li{
-    font-size: 14px;
-    padding-bottom: 1.5rem;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
 .mini_box .points li h5{
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 13px;
+    padding-left: 5px;
 }
-.mini_box .points li i{
+.mini_box .points li .check{
     color: #0061FF;
+    font-size: 12px;
+    padding-right: 5px;
 }
-
 .col .title{
     text-align: center;
     padding: 5px 0;
@@ -293,7 +310,7 @@ section{
     border: none;
     padding: 0.5rem 1rem;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 .col_1 .btn_vendite:hover{
     background-color: #317ffc;
@@ -314,9 +331,9 @@ section{
 }
 .col_5 .btn_partner{
     padding: 0.5rem 0.7rem;
-    cursor: pointer;
     background-color: white;
     border: 1px solid gray;
+    text-decoration: none;
 }
 
 .col_5 .btn_partner:hover{
@@ -345,6 +362,7 @@ section{
 .small_container .instruments .item p{
     font-size: 14px;
 }
+
 /* /operation */
 
 /* team */
@@ -382,6 +400,7 @@ section{
     height: 90px;
     position: relative;
     top: 20px;
+    
 }
 .big_box .items_right img{
     width: 100px;
@@ -414,6 +433,9 @@ section{
     border: 5px solid #D1E9CD;
     text-align: center;
 }
+.square_green .designit{
+    color: white;
+} 
 .square_asu{
     width: calc(100% / 2);
     height: 150px;
