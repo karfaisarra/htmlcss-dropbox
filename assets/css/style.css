@@ -72,7 +72,6 @@ section{
 /* jumbotron */
 .big_container h1{
     font-size: 70px;
-    font-weight:800;
     margin-bottom: -2.5rem;
 
 }
@@ -157,13 +156,7 @@ section{
     border: 1px solid lightgray;
     
 }
-.col{
-    margin-top: 1.5rem;
-    margin-bottom: 5rem;
-    width: 99%;
-    border: 1px solid lightgray;
-    position: relative;
-}
+
 
 .col_7 {
     width: calc(100% / 12 *7);
@@ -270,6 +263,13 @@ section{
     font-size: 12px;
     padding-right: 5px;
 }
+.col{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    width: 99%;
+    border: 1px solid lightgray;
+    position: relative;
+}
 
 .col .title{
     text-align: center;
@@ -279,7 +279,12 @@ section{
 .col hr{
     border: 0.5px solid lightgray
 }
-
+.col .sm_bx{
+    width: 60%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+}
 .col_1{
     padding: 15px;
     justify-content: space-between;
@@ -293,13 +298,7 @@ section{
 .col_1 h5{
     padding-bottom: 10px;
 }
-.col .sm_bx{
-    width: 60%;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    font-size: 12px;
-    font-weight: 400;
-}
+
 .col_1 .btn_vendite{
     background-color: #0061FF;
     border: none;
@@ -366,7 +365,6 @@ section{
 }
 .small_container .cont h2{
     font-size: 36px;
-    font-weight: bolder;
 }
 .small_container .cont a{
     font-size: 13px;
@@ -484,19 +482,19 @@ section{
 /* call_to_action */
 .small_container .add{
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .small_container .add .btn{
     width: 100%;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 1.5rem;
     background-color: white;
     border: none;
     text-decoration: none;
 }
 .small_container .add .position_btn{
     position: relative;
-    top: 43px;
+    bottom: 45px;
 }
 .small_container .add .btn:hover{
     border: 1px solid rgba(128, 128, 128, 0.521) ;
@@ -517,6 +515,7 @@ section{
     margin-bottom: 5rem;
 }
 .small_container .faq .requests{
+    justify-content: space-between;
     padding: 2rem 0;
     cursor: pointer;
     font-size: 14px;
@@ -550,7 +549,7 @@ section{
     margin-top: 5rem ;
     
 }
-.footer_bottom .languages .text{
+.footer_bottom .languages .text {
     width: 10%;
     font-size: 13px;
     padding: 3rem 0;
