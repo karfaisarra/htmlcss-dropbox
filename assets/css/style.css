@@ -19,7 +19,6 @@ body{
 .big_container{
     width: 65%;
     margin: auto;
-    height: 540px;
 }
 
 .small_container{
@@ -37,7 +36,6 @@ header li{
     margin-right:0.5rem;
     margin-top: 15px;
     margin-left: 10px;
-    vertical-align:middle;
     padding-bottom: 19px;
 }
 header li img{
@@ -52,15 +50,10 @@ header li a{
 header li a:hover{
     border-bottom: 1px solid #565656;
 }
-header .menu_left, .menu_right{
-    display: inline-block;
+header nav{
+    justify-content: space-between;
+    align-items: center;
 }
-header .menu_right{
-    position: absolute;
-    right: 0;
-    top: 2px;
-}
-
 header li .btn{
     background-color: #0061FF;
     border: none;
@@ -79,12 +72,15 @@ section{
 }
 /* jumbotron */
 .big_container h1{
-    padding-bottom: 1.5rem;
     font-size: 70px;
     font-weight:800;
+    margin-bottom: -2.5rem;
 
 }
-
+.big_container .box{
+    position: relative;
+    top: 55px;
+}
 .big_container .btn{
     background-color: #0061FF;
     border: none;
@@ -101,22 +97,20 @@ section{
     font-size: 14px;
 }
 .big_container .space_text{
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 .big_container .text{
-    position:relative;
-    width: 40%;
-    vertical-align: middle;
+    padding-bottom: 1.5rem;
 }
-.box{
+.big_container .box{
     padding-top: 2rem;
 }
 .big_container img{
     width: 67%;
     height: 350px;
 }
-.text .scroll i{
-    padding-top: 2rem;
+.box .scroll i{
+    padding-top: 1.5rem;
     font-size: 30px;
 }
 .scroll a{
@@ -161,7 +155,6 @@ section{
     width: calc(100% / 12 *4);
     margin-top: 2rem;
     margin-right: 0.5rem;
-    height: 820px;
     border: 1px solid lightgray;
     
 }
@@ -169,14 +162,10 @@ section{
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     width: 99%;
-    height: 200px;
     border: 1px solid lightgray;
     position: relative;
 }
-.col_1{
-    max-width: 80%;
-    height:150px ;
-}
+
 .col_7 {
     width: calc(100% / 12 *7);
     margin-right: 10px;
@@ -282,6 +271,7 @@ section{
     font-size: 12px;
     padding-right: 5px;
 }
+
 .col .title{
     text-align: center;
     padding: 5px 0;
@@ -290,22 +280,28 @@ section{
 .col hr{
     border: 0.5px solid lightgray
 }
-.col_1 h4{
+
+.col_1{
     padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.col_1 h4{
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 .col_1 h5{
-    padding-left: 15px;
-    font-size: 14px;
+    padding-bottom: 10px;
 }
-.col_1 p{
+.col .sm_bx{
+    width: 60%;
+    padding-bottom: 15px;
     padding-left: 15px;
-    padding-top: 40px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .col_1 .btn_vendite{
-    position: absolute;
-    top:50px;
-    right: 25px;
     background-color: #0061FF;
     border: none;
     padding: 0.5rem 1rem;
@@ -495,9 +491,9 @@ section{
 .small_container .add .btn{
     width: 100%;
     padding: 0.5rem 0.7rem;
-    cursor: pointer;
     background-color: white;
     border: none;
+    text-decoration: none;
 }
 .small_container .add .position_btn{
     position: relative;
@@ -556,9 +552,10 @@ section{
     
 }
 .footer_bottom .languages .text{
-    font-size: 14px;
-    padding-top: 5rem;
-    border-top:1px solid white ;
+    width: 10%;
+    font-size: 13px;
+    padding: 3rem 0;
+    border-top: 1px solid white ;
     color: rgba(255, 255, 255, 0.575);
 }
 /*end_site_footer*/

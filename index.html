@@ -13,38 +13,41 @@
 </head>
 <body>
     <header id="site_header">
-        <div class="menu_left">
-            <ul>
-                <li>
-                    <img src="./assets/img/logo-small.png" alt="">
-                </li>
-                <li>
-                    <a href="#">Perchè Dropbox</a>
-                </li>
-                <li>
-                    <a href="#">Funzioni</a>
-                </li>
-                <li>
-                    <a href="#">Piani e Prezzi</a>
-                </li>
-            </ul>
-        </div>
-        <div class="menu_right">
-            <ul>
-                <li>
-                    <a href="#">Supporto</a>
-                </li>
-                <li>
-                    <a href="#">Contatta l'ufficio verdite</a>
-                </li>
-                <li>
-                    <a href="#">Accedi</a>
-                </li>
-                <li>
-                    <a href="#" class="btn">Inizia</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="d-flex">
+            <div class="menu_left">
+                <ul>
+                    <li>
+                        <img src="./assets/img/logo-small.png" alt="">
+                    </li>
+                    <li>
+                        <a href="#">Perchè Dropbox</a>
+                    </li>
+                    <li>
+                        <a href="#">Funzioni</a>
+                    </li>
+                    <li>
+                        <a href="#">Piani e Prezzi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_right">
+                <ul>
+                    <li>
+                        <a href="#">Supporto</a>
+                    </li>
+                    <li>
+                        <a href="#">Contatta l'ufficio verdite</a>
+                    </li>
+                    <li>
+                        <a href="#">Accedi</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">Inizia</a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+        
     </header>
     <!-- /#site_header -->
 
@@ -55,11 +58,15 @@
             <div class="big_container">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="box d-flex">
-                    <div class="text">
-                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Buisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    <div>
+                        <p class="text">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Buisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <a href="#" class="btn">Inizia le tua prova gratuita</a>
                         <p class="space_text">Annulla in qualsiasi momento</p>
-                        <div class="scroll"><a href=""><i class="fa-solid fa-arrow-down"></i></a></div>
+                        <div class="scroll">
+                            <a href="">
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                        </div>
                     </div>
                     <img src="./assets/img/jumbo.png" alt="">
                 </div>
@@ -72,10 +79,18 @@
         <section>
             <div class="small_container">
                 <h2>Trova il piano business che fa per te</h2>
-                <input type="checkbox" id="checkbox" name="vehicle1" value="Bike">
-                <span>Fatturazione mensile</span>
-                <input type="checkbox" id="checkbox" name="vehicle1" value="Bike">
-                <span>Fatturazione annuale</span>
+                <div class="checkbox d-flex">
+                    <div>
+                        <input type="checkbox" id="checkbox" name="vehicle1" value="Bike">
+                        <span>Fatturazione mensile</span> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox" name="vehicle1" value="Bike">
+                        <span>Fatturazione annuale</span>  
+                    </div>
+                </div>
+                
+                
                 <div class="row">
                     <div class="col_4">
                         <div class="title">
@@ -265,12 +280,21 @@
                         Team
                     </div>
                     <hr>
-                    <div class="col_1">
-                        <h4>Entreprise</h4>
-                        <h5>Contatta l'ufficio vendite per i Prezzi</h5>
-                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
-                        <a href="#" class="btn_vendite">Contatta l'ufficio vendite</a>
+
+                    <div class="col_1 d-flex">
+                        <div class="col_1_left">
+                           <h4>Entreprise</h4> 
+                           <h5>Contatta l'ufficio vendite per i Prezzi</h5>
+                        </div>
+                        <div class="col_1_right">
+                           <a href="#" class="btn_vendite">Contatta l'ufficio vendite</a> 
+                        </div>
                     </div>
+                    <div class="sm_bx">
+                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                    </div>    
+                        
+                        
                 </div>
                 <div class="row">
                     <div class="col_7">
@@ -388,7 +412,9 @@
             <div class="small_container">
                 <div class="add d-flex ">
                     <h2>Porta Dropbox Buisness nella tua azienda.</h2>
-                    <div class="position_btn" ><button class="btn">Inizia la tua prova gratuita</button></div>
+                    <div class="position_btn" >
+                        <a href="#" class="btn">Inizia la tua prova gratuita</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -480,7 +506,9 @@
             <div class="footer_bottom">
                 <div class="languages">
                     <div class="text">
-                        <i class="fa-solid fa-earth-americas"></i> Italiano <i class="fa-solid fa-caret-up"></i>
+                        <i class="fa-solid fa-earth-americas"></i>  
+                          Italiano
+                        <i class="fa-solid fa-caret-up"></i>
                     </div>
                 </div>
             </div>
