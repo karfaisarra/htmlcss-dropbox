@@ -527,6 +527,7 @@ section{
 .footer_menu li h4{
     font-size: 15px;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 .footer_bottom {
     margin-top: 5rem ;
@@ -536,5 +537,6 @@ section{
     font-size: 14px;
     padding-top: 5rem;
     border-top:1px solid white ;
+    color: rgba(255, 255, 255, 0.575);
 }
 /*end_site_footer*/
