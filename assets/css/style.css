@@ -28,8 +28,11 @@ body{
 
 /*site_header*/
 #site_header{
-    position: relative;
     font-size: 13px;
+}
+header nav{
+    justify-content: space-between;
+    align-items: center;
 }
 header li{
     display: inline-block;
@@ -50,16 +53,12 @@ header li a{
 header li a:hover{
     border-bottom: 1px solid #565656;
 }
-header nav{
-    justify-content: space-between;
-    align-items: center;
-}
+
 header li .btn{
     background-color: #0061FF;
     border: none;
     padding: 0.5rem 0.8rem;
     color: white;
-    cursor: pointer;
 }
 header li .btn:hover{
     background-color: #317ffc;
